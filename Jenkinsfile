@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('error') {
+    stage('git checkout') {
       steps {
         sh 'git clone \'https://github.com/AniketBhagat1/git.git\''
       }
